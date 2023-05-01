@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #b7a3a3;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lily Script One', cursive;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, serif;
+    letter-spacing: 8px;
+}
+.heure{
+    margin:35px;
+    border: 2px solid rgb(14, 83, 151);
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+
+.heure p{
+    padding: 65px;
+    font-size: 60px;
+    border: 2px solid rgb(14, 83, 151);
+    border-radius: 20px;
+}
+
+.date{
+    margin:15px;
+    border: 2px solid rgb(14, 83, 151);
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.date p{
+    padding: 35px;
+    font-size: 30px;
+    border: 2px solid rgb(14, 83, 151);
+    border-radius: 10px;
+}
+
+select{
+    font-size: 15px;
+    margin: 25px;
+}
